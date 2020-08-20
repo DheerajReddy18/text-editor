@@ -1,0 +1,37 @@
+body {
+  background-color:blanchedalmond;
+  margin: 0 auto;
+  max-width: 50em;
+  
+}
+
+div:focus {
+    outline: none;
+}
+
+#heading {
+   font-size: 50px;
+   border:1px solid green;
+   padding-top:10px;
+    padding-left:15px;
+    padding-bottom:50px;
+
+   
+}
+
+.buttons {
+   background-color: white;
+
+}
+
+#content {
+    
+    font-size: 25px;
+    border:1px solid brown;
+    padding-top:10px;
+    padding-left:15px;
+    padding-bottom:150px;
+
+    
+    
+}

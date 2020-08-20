@@ -1,0 +1,37 @@
+<html>
+ <head>
+  <title>Text Editor</title>
+  <link rel="stylesheet" href="editor.css">
+ </head>
+ <body>
+   <div id="butttons">
+   <button  type="button" class="buttons" id="save" onclick="save()">save</button>
+   <button  type="button" class="buttons" id="bold" onclick="bold()">bold</button>
+   <button  type="button" class="buttons" id="italic" onclick="italic()">italic</button>
+   <button  type="button" class="buttons" id="underline" onclick="underline()">underline</button>
+   <button  type="button" class="buttons" id="undo" onclick="undo()">undo</button>
+   <select id="font" onchange="change(this);">
+   <option  selected>Times New Roman</option>
+   <option >Arial</option>
+   <option >fantasy</option>
+   <option >cursive</option>
+   <option>Courier New</option>
+   <option>Garamond</option>
+   <option>Cambria</option>
+   <option>Brush Script MT</option> 
+   </select>
+   <select id="fontsize" onchange="fontsize(this);">
+   <option>12pt</option>
+   <option>18pt</option>
+   <option selected>22pt</option>
+   <option>32pt</option>
+   <option>40pt</option>
+   <option>48pt</option>
+   </select>
+  </div>
+   <div id="heading" contenteditable="true"></div>
+   <p>------------------------------</p>
+   <div id="content" contenteditable="true"></div>
+<script src="editor.js"></script>
+</body>
+</html>
